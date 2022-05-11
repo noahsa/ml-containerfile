@@ -13,7 +13,7 @@
 
     ```bash
     oc new-build \
-    https://github.com/noahsa/production-ds-container.git \
+    https://github.com/noahsa/ml-containerfile.git#dev \
     --name=ml-image \
     --strategy=docker
     ```
